@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:git_test1/home.dart';
 import 'package:git_test1/login.dart';
 
 void main() {
@@ -12,7 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Git Learning 1',
-      routes: {'/': (context) => const Login()},
+      routes: {
+        '/': (context) => const Login(),
+        '/home': (context) => const HomePage(),
+      },
       initialRoute: '/',
     );
   }

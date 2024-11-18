@@ -121,6 +121,7 @@ class _LoginState extends State<Login> {
         child: ElevatedButton(
           // onPressed: _submit(),
           onPressed: () {
+            Navigator.pushReplacementNamed(context, '/home');
             // if (_formKey.currentState!.validate()) {
             //   _formKey.currentState?.save();
             //   authService.login(user: user).then((result) {
