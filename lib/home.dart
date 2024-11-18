@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("git test1"),
+        title: Text("git test1 edit1"),
       ),
     );
   }
